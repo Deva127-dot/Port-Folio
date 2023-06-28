@@ -18,68 +18,92 @@ function Work() {
       <div className={styles.box}>
         <div className={styles.page1}>
           <p className={styles.project}>Twitter Clone</p>
-          <div className={styles.lorem}>
-            <a>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              dolorum iste et quaerat voluptates ab labore facilis harum enim
-              delectus.
-            </a>
+          <div className={styles.lorem1}>
+            <ul>
+              <li>
+                User Registration and Authentication: Users can create accounts,
+                provide necessary information, and authenticate themselves to
+                access the platform securely.
+              </li>
+              <li>
+                The project typically includes user profiles, hashtags, trending
+                topics, search functionality & direct messaging.
+              </li>
+              <li>
+                It allows users to create accounts, post short messages
+                (tweets), follow other users, engage in conversations through
+                likes, retweets, and comments, and receive notifications.
+              </li>
+            </ul>
           </div>
           <a className={styles.para3}>GITHUB LINK</a>
           <a className={styles.para3}>VISIT WEBSITES</a>
-          <div className={styles.buttons}>
+          <div className={styles.buttons1}>
             <button className={styles.btn}>HTML</button>
             <button className={styles.btn}>CSS</button>
             <button className={styles.btn}>Javascript</button>
             <button className={styles.btn}>ReactJs</button>
           </div>
-          <p className={styles.yr}>2023</p>
+          <p className={styles.yr1}>2023</p>
         </div>
         <div className={styles.page2}></div>
       </div>
 
       <div className={styles.box}>
         <div className={styles.page1}>
-          <p className={styles.project}>Project 2</p>
-          <div className={styles.lorem}>
-            <a>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              dolorum iste et quaerat voluptates ab labore facilis harum enim
-              delectus.
-            </a>
+          <p className={styles.project}>Kanban Board</p>
+          <div className={styles.lorem2}>
+            <ul>
+              <li>
+                Kanban board projects can be developed as web or mobile
+                applications and often utilize technologies such as HTML, CSS,
+                and JavaScript for the Front-End interface.
+              </li>
+              <li>
+                It provides a visual board with lists representing different
+                stages of work, typically including "To Do", "In Progress" &
+                "Done".
+              </li>
+            </ul>
           </div>
           <a className={styles.para3}>GITHUB LINK</a>
           <a className={styles.para3}>VISIT WEBSITES</a>
-          <div className={styles.buttons}>
+          <div className={styles.buttons2}>
             <button className={styles.btn}>HTML</button>
             <button className={styles.btn}>CSS</button>
             <button className={styles.btn}>Javascript</button>
             <button className={styles.btn}>ReactJs</button>
           </div>
-          <p className={styles.yr}>2023</p>
+          <p className={styles.yr2}>2023</p>
         </div>
         <div className={styles.page2}></div>
       </div>
 
       <div className={styles.box}>
         <div className={styles.page1}>
-          <p className={styles.project}>Project 3</p>
-          <div className={styles.lorem}>
-            <a>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              dolorum iste et quaerat voluptates ab labore facilis harum enim
-              delectus.
-            </a>
+          <p className={styles.project}>Google Docs</p>
+          <div className={styles.lorem3}>
+            <ul>
+              <li>
+                Users can create, edit, and collaborate on documents in
+                real-time, similar to Google's popular document creation and
+                editing tool.
+              </li>
+              <li>
+                Utilized ReactJS, JavaScript, HTML, and CSS to develop the
+                project.
+              </li>
+            </ul>
           </div>
           <a className={styles.para3}>GITHUB LINK</a>
           <a className={styles.para3}>VISIT WEBSITES</a>
-          <div className={styles.buttons}>
+          <div className={styles.buttons3}>
             <button className={styles.btn}>HTML</button>
             <button className={styles.btn}>CSS</button>
             <button className={styles.btn}>Javascript</button>
             <button className={styles.btn}>ReactJs</button>
           </div>
-          <p className={styles.yr}>2023</p>
+          <p className={styles.yr3}>2023</p>
         </div>
         <div className={styles.page2}></div>
       </div>

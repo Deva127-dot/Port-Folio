@@ -45,9 +45,17 @@
     font-weight: bold;
     font-family: 'calibri';
 }
-.lorem{
-    padding: 5vh 10vw 5vh 3vw;
-    font-size: 18px;
+.lorem1{
+    padding: 3vh 2vw 1vh 3vw;
+    font-size: 16px;
+}
+.lorem2{
+    padding: 5vh 3vw 5vh 3vw;
+    font-size: 16px;
+}
+.lorem3{
+    padding: 5vh 3vw 5vh 3vw;
+    font-size: 16px;
 }
 .page2{
     height: 80vh;
@@ -57,10 +65,22 @@
     display: flex;
     font-size: 20px;
     color: red;
-    padding: 1vh 3vw;
+    padding: 0.5vh 3vw;
     font-family: 'calibri';
 }
-.buttons{
+.buttons1{
+    gap: 50px;
+    padding-top: 1vh;
+    padding-left: 3vw;
+    margin-right: 5vw;
+}
+.buttons2{
+    gap: 50px;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    margin-right: 5vw;
+}
+.buttons3{
     gap: 50px;
     padding-top: 5vh;
     padding-left: 3vw;
@@ -80,13 +100,21 @@
     cursor: pointer;
 }
 .btn:hover{
-    background-color: rgb(0, 0, 222);
-    transform: scale(1.02);
-    box-shadow: 0px 0px 10px black;
+    transform: scale(1.1);
 }
-.yr{
+.yr1{
     color: rgb(188, 188, 188);
-    padding: 5vh 10vw 5vh 3vw;
+    padding: 2vh 10vw 5vh 3vw;
+    font-size: 30px;
+}
+.yr2{
+    color: rgb(188, 188, 188);
+    padding: 4vh 10vw 5vh 3vw;
+    font-size: 30px;
+}
+.yr3{
+    color: rgb(188, 188, 188);
+    padding: 5vh 10vw 2vh 3vw;
     font-size: 30px;
 }
 .div3{
