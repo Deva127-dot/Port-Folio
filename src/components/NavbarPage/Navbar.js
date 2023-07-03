@@ -7,18 +7,22 @@ function Navbar() {
   return (
     <div className={styles.main}>
       <div className={styles.sub_main}>
-        <Link to="/">
+        <Link to="/" className={styles
+        .link} >
           <p className={styles.para}>HOME</p>
         </Link>
-        <Link to="/work">
+        <Link to="/work" className={styles
+        .link}>
           {" "}
           <p className={styles.para}>WORK</p>
         </Link>
-        <Link to="/tools">
+        <Link to="/tools" className={styles
+        .link}>
           {" "}
           <p className={styles.para}>TOOLS & SKILLS</p>
         </Link>
-        <Link to="contact">
+        <Link to="contact" className={styles
+        .link}>
           {" "}
           <p className={styles.para}>CONTACT</p>
         </Link>
