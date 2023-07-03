@@ -26,12 +26,13 @@ function Navbar() {
           {" "}
           <p className={styles.para}>CONTACT</p>
         </Link>
-        <button className={styles.btn}>
+        <a href="https://photos.google.com/search/_tra_/photo/AF1QipPIXCZ5Zf9V9h_vblS1wRRWKA9fOsmHJlg5zxco" target="_blank" className={styles
+        .link}><button className={styles.btn}>
           DOWNLOAD RESUME{" "}
           <a className={styles.dwnldIcon}>
             <ArrowDownwardIcon />
           </a>
-        </button>
+        </button></a>
       </div>
     </div>
   );
