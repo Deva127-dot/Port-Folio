@@ -26,7 +26,7 @@ function Navbar() {
           {" "}
           <p className={styles.para}>CONTACT</p>
         </Link>
-        <a href="https://photos.google.com/search/_tra_/photo/AF1QipPIXCZ5Zf9V9h_vblS1wRRWKA9fOsmHJlg5zxco" target="_blank" className={styles
+        <a href="https://drive.google.com/file/d/1SBLKCwj0epgLNEOohS_CqMFAkx6_PY7G/view?usp=drive_link" target="_blank" className={styles
         .link}><button className={styles.btn}>
           DOWNLOAD RESUME{" "}
           <a className={styles.dwnldIcon}>
