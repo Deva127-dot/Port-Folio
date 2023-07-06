@@ -4,7 +4,7 @@ import styles from "./webIcons.module.css";
 function WebIcons() {
   return (
     <div className={styles.main}>
-      <a href="https://github.com/Deva127-dot/react-practice" target="_blank" className={styles.anchor} ><p className={styles.para} >
+      <a href="https://github.com/Deva127-dot" target="_blank" className={styles.anchor} ><p className={styles.para} >
         <img
           src="https://rohitmahajan.netlify.app/images/github.png"
           alt="GitHub Icon"
