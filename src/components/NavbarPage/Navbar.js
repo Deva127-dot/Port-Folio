@@ -11,22 +11,22 @@ function Navbar() {
         .link} >
           <p className={styles.para}>HOME</p>
         </Link>
-        <Link to="/work" className={styles
+        <Link to="/work" target="_blank" className={styles
         .link}>
           {" "}
           <p className={styles.para}>WORK</p>
         </Link>
-        <Link to="/tools" className={styles
+        <Link to="/tools" target="_blank" className={styles
         .link}>
           {" "}
           <p className={styles.para}>TOOLS & SKILLS</p>
         </Link>
-        <Link to="contact" className={styles
+        <Link to="contact" target="_blank" className={styles
         .link}>
           {" "}
           <p className={styles.para}>CONTACT</p>
         </Link>
-        <a href="https://drive.google.com/file/d/1SBLKCwj0epgLNEOohS_CqMFAkx6_PY7G/view?usp=drive_link" target="_blank" className={styles
+        <a href="https://drive.google.com/file/d/1s5TsImBCQWy7c22uq-nzqVyJPfXW3Wli/view?usp=sharing" target="_blank" className={styles
         .link}><button className={styles.btn}>
           DOWNLOAD RESUME{" "}
           <a className={styles.dwnldIcon}>

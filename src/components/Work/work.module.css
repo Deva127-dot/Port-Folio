@@ -30,13 +30,13 @@
     margin-bottom: 10vh;
     height: 80vh;
     width: 60vw;
-    border: 10px solid rgb(233, 233, 233);
+    border: 10px solid rgb(214, 214, 214);
     border-radius: 25px;
 }
 .page1{
     height: 80vh;
     width: 30vw;
-    border-right: 1px solid rgb(182, 182, 182);
+    border-right: 3px solid rgb(182, 182, 182);
 }
 .project{
     font-size: 40px;
@@ -66,6 +66,10 @@
     width: 30vw;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
+    position: absolute;
+}
+.projectImg:hover{
+    width: -30vw;
 }
 .para3{
     display: flex;

@@ -9,7 +9,6 @@
     text-align: center;
     padding: 20px;
     height: 8vh;
-    /* background-color: black; */
     color: whitesmoke;
     font-size: 18px;
     box-shadow: 0px 0px 10px whitesmoke;
@@ -39,7 +38,6 @@
     align-items: center;
     margin-left: 18vw;
     gap: 4vw;
-    /* border: 1px solid black; */
 }
 .dwnldIcon{
     padding: 0px 5px;
@@ -47,6 +45,7 @@
 .para{
     cursor: pointer;
     transition: 0.2s;
+    font-weight: bold;
     color: white;
 }
 .para:hover{
