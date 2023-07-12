@@ -1,9 +1,11 @@
 .Contact_main{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 86vh;
     background-color: black;
     padding: 0vh 13vw;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
 }
 .main{
     display: flex;
@@ -15,14 +17,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 80vh;
+    height: 50vh;
     width: 35vw;
     color: whitesmoke;
 }
 .anchor1{
     font-weight: bold;
     font-size: 75px;
-    margin-top: 12vh;
+    margin-top: 5vh;
     padding-right: 10vw;
     line-height: 75px;
 }
@@ -52,10 +54,9 @@
     flex-direction: column;
     width: 35vw;
     color: whitesmoke;
-
 }
 .div2P1{
-    margin-top: 13vh;
+    margin-top: 3vh;
     font-size: 30px;
     font-family: 'calibri';
 }

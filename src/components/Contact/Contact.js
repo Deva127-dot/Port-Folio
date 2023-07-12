@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./contact.module.css";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import Footer from "./Footer";
 
 function Contact() {
+
+  const [text, setText]=useState("")
+  const handleClick=()=>{
+        setText("")
+  }
+
   return (
     <div className={styles.Contact_main}>
       <div className={styles.main}>
@@ -27,7 +33,7 @@ function Contact() {
           <input type="text" placeholder="Name" className={styles.info} />
           <input type="email" placeholder="Email" className={styles.info} />
           <input type="text" placeholder="Message" className={styles.info} />
-          <button className={styles.btn}>SEND</button>
+          <button className={styles.btn} onClick={handleClick}>SEND</button>
         </div>
       </div>
       <Footer />

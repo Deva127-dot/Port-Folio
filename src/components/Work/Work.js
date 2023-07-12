@@ -5,6 +5,7 @@ import img1 from './twitter_clone.jpg';
 import img2 from './kanaban_board.png';
 import img3 from './google_docs.png';
 import img4 from './gym_website.jpg';
+import CompleteWebIcon from "./CompleteWebIcon";
 
 function Work() {
   return (
@@ -146,14 +147,8 @@ function Work() {
         </div>
       </div>
 
-      <div className={styles.div3}>
-        <p className={styles.webHead}>
-          On the <a className={styles.web}>web</a>
-        </p>
-        <a className={styles.webAnchor}>Find me on social media</a>
-        <br />
-        <WebIcons />
-      </div>
+      <CompleteWebIcon/>
+
     </div>
   );
 }

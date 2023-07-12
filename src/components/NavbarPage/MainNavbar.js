@@ -1,15 +1,10 @@
 import React from "react";
 import styles from "./mainNavbar.module.css";
-import Navbar from "./Navbar";
-import Work from "../Work/Work";
-import Contact from "../Contact/Contact";
-import Skills from "../Tools & Skills/ToolsLibraries";
 import img1 from './img1.jpg'
 
 function MainNavbar() {
   return (
     <div className={styles.main}>
-      <Navbar />
       <div className={styles.splitMain}>
         <div className={styles.split1}>
           <div className={styles.sub_main}>
@@ -30,9 +25,6 @@ function MainNavbar() {
         <img src={img1} className={styles.img}/>
         </div>
       </div>
-      <Work />
-      <Skills/>
-      <Contact />
     </div>
   );
 }

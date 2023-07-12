@@ -11,17 +11,17 @@ function Navbar() {
         .link} >
           <p className={styles.para}>HOME</p>
         </Link>
-        <Link to="/work" target="_blank" className={styles
+        <Link to="/work" className={styles
         .link}>
           {" "}
           <p className={styles.para}>WORK</p>
         </Link>
-        <Link to="/tools" target="_blank" className={styles
+        <Link to="/tools" className={styles
         .link}>
           {" "}
           <p className={styles.para}>TOOLS & SKILLS</p>
         </Link>
-        <Link to="contact" target="_blank" className={styles
+        <Link to="contact" className={styles
         .link}>
           {" "}
           <p className={styles.para}>CONTACT</p>

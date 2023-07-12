@@ -12,7 +12,7 @@ function Footer() {
         <p className={styles.footer_para}>
           Handcrafted by me © Devendra Parsharam.
         </p>
-        <p className={styles.footer_para}>Inspired by © xyz.</p>
+        <p className={styles.footer_para}>Inspired by © FunctionUp.</p>
       </div>
       <div className={styles.footer_icons}>
         <a
