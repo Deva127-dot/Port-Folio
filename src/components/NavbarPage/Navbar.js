@@ -21,12 +21,12 @@ function Navbar() {
           {" "}
           <p className={styles.para}>TOOLS & SKILLS</p>
         </Link>
-        <Link to="contact" className={styles
+        <Link to="/contact" className={styles
         .link}>
           {" "}
           <p className={styles.para}>CONTACT</p>
         </Link>
-        <a href="https://drive.google.com/file/d/1s5TsImBCQWy7c22uq-nzqVyJPfXW3Wli/view?usp=sharing" target="_blank" className={styles
+        <a href="https://drive.google.com/file/d/1DElwtr5dMK5Ph4z_BGS9SkYF0rGlFKnD/view?usp=sharing" target="_blank" className={styles
         .link}><button className={styles.btn}>
           DOWNLOAD RESUME{" "}
           <a className={styles.dwnldIcon}>

@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./work.module.css";
 import WebIcons from "./WebIcons";
-import img1 from './twitter_clone.jpg';
-import img2 from './kanaban_board.png';
-import img3 from './google_docs.png';
-import img4 from './gym_website.jpg';
+import img0 from './service_center-Img.jpg';
+import img1 from "./twitter_clone.jpg";
+import img2 from "./kanaban_board.png";
+import img3 from "./google_docs.png";
+import img4 from "./gym_website.jpg";
 import CompleteWebIcon from "./CompleteWebIcon";
 
 function Work() {
@@ -20,6 +21,58 @@ function Work() {
         I’ll help <a style={{ color: "red" }}>visualize your creative ideas.</a>{" "}
         From web design to developing user friendly wesites.
       </p>
+
+      <div className={styles.box}>
+        <div className={styles.page1}>
+          <p className={styles.project}>
+            Car Service Center <br /> Website
+          </p>
+          <div className={styles.lorem1}>
+            <ul>
+              <li>
+                The car service center website project developed in ReactJS
+                access service information.
+              </li>
+              <li>
+              The website offers a user-friendly interface with a navigation menu that allows users to easily navigate through different sections. 
+              </li>
+              <li>
+                About us page providing information about the service
+                center's history, expertise, and qualified technicians.
+              </li>
+            </ul>
+          </div>
+          <a
+            href="https://github.com/Deva127-dot/car_service-center_website-project"
+            target="_blank"
+            className={styles.para3}
+          >
+            GITHUB LINK
+          </a>
+          <a
+            href="https://car-service-center-website-project-devendra-parsharam.vercel.app/"
+            target="_blank"
+            className={styles.para3}
+          >
+            VISIT WEBSITES
+          </a>
+          <div className={styles.buttons1}>
+            <button className={styles.btn}>HTML</button>
+            <button className={styles.btn}>CSS</button>
+            <button className={styles.btn}>Javascript</button>
+            <button className={styles.btn}>ReactJs</button>
+          </div>
+          <p className={styles.yr1}>2023</p>
+        </div>
+        <div className={styles.page2}>
+          <img
+            src={img0}
+            alt="twitter clone project"
+            className={styles.projectImg}
+          />
+        </div>
+      </div>
+
       <div className={styles.box}>
         <div className={styles.page1}>
           <p className={styles.project}>Twitter Clone</p>
@@ -41,8 +94,20 @@ function Work() {
               </li>
             </ul>
           </div>
-          <a href="https://github.com/PARTHAKMEHRA/Twitter_Clone" target="_blank" className={styles.para3}>GITHUB LINK</a>
-          <a href="http://twitter-clone-c9x6pjqhs-parthakmehra.vercel.app/" target="_blank" className={styles.para3}>VISIT WEBSITES</a>
+          <a
+            href="https://github.com/PARTHAKMEHRA/Twitter_Clone"
+            target="_blank"
+            className={styles.para3}
+          >
+            GITHUB LINK
+          </a>
+          <a
+            href="http://twitter-clone-c9x6pjqhs-parthakmehra.vercel.app/"
+            target="_blank"
+            className={styles.para3}
+          >
+            VISIT WEBSITES
+          </a>
           <div className={styles.buttons1}>
             <button className={styles.btn}>HTML</button>
             <button className={styles.btn}>CSS</button>
@@ -52,7 +117,11 @@ function Work() {
           <p className={styles.yr1}>2023</p>
         </div>
         <div className={styles.page2}>
-          <img src={img1} alt="twitter clone project" className={styles.projectImg} />
+          <img
+            src={img1}
+            alt="twitter clone project"
+            className={styles.projectImg}
+          />
         </div>
       </div>
 
@@ -73,8 +142,20 @@ function Work() {
               </li>
             </ul>
           </div>
-          <a href="https://github.com/Deva127-dot/kanban_project" target="_blank" className={styles.para3}>GITHUB LINK</a>
-          <a href="https://group19-kanban-project-7mq8.vercel.app/" target="_blank" className={styles.para3}>VISIT WEBSITES</a>
+          <a
+            href="https://github.com/Deva127-dot/kanban_project"
+            target="_blank"
+            className={styles.para3}
+          >
+            GITHUB LINK
+          </a>
+          <a
+            href="https://group19-kanban-project-7mq8.vercel.app/"
+            target="_blank"
+            className={styles.para3}
+          >
+            VISIT WEBSITES
+          </a>
           <div className={styles.buttons2}>
             <button className={styles.btn}>HTML</button>
             <button className={styles.btn}>CSS</button>
@@ -84,7 +165,11 @@ function Work() {
           <p className={styles.yr2}>2023</p>
         </div>
         <div className={styles.page2}>
-        <img src={img2} alt="twitter clone project" className={styles.projectImg} />
+          <img
+            src={img2}
+            alt="twitter clone project"
+            className={styles.projectImg}
+          />
         </div>
       </div>
 
@@ -104,8 +189,20 @@ function Work() {
               </li>
             </ul>
           </div>
-          <a href="https://github.com/Deva127-dot/google_docs" target="_blank" className={styles.para3}>GITHUB LINK</a>
-          <a href="https://google-docs-deva.vercel.app/" target="_blank" className={styles.para3}>VISIT WEBSITES</a>
+          <a
+            href="https://github.com/Deva127-dot/google_docs"
+            target="_blank"
+            className={styles.para3}
+          >
+            GITHUB LINK
+          </a>
+          <a
+            href="https://google-docs-deva.vercel.app/"
+            target="_blank"
+            className={styles.para3}
+          >
+            VISIT WEBSITES
+          </a>
           <div className={styles.buttons3}>
             <button className={styles.btn}>HTML</button>
             <button className={styles.btn}>CSS</button>
@@ -115,7 +212,11 @@ function Work() {
           <p className={styles.yr3}>2023</p>
         </div>
         <div className={styles.page2}>
-        <img src={img3} alt="twitter clone project" className={styles.projectImg} />
+          <img
+            src={img3}
+            alt="twitter clone project"
+            className={styles.projectImg}
+          />
         </div>
       </div>
 
@@ -125,15 +226,30 @@ function Work() {
           <div className={styles.lorem2}>
             <ul>
               <li>
-              The Gym Website Project using ReactJS is a responsive and visually appealing website that showcases a gym's services, facilities, and trainers.
+                The Gym Website Project using ReactJS is a responsive and
+                visually appealing website that showcases a gym's services,
+                facilities, and trainers.
               </li>
               <li>
-              It offers features like membership sign-up, class schedules, and a blog section to engage visitors and promote online presence.
+                It offers features like membership sign-up, class schedules, and
+                a blog section to engage visitors and promote online presence.
               </li>
             </ul>
           </div>
-          <a href="https://github.com/Deva127-dot/gym_website_project" target="_blank" className={styles.para3}>GITHUB LINK</a>
-          <a href="https://gym-website-project-devendra-parsharam.vercel.app/" target="_blank" className={styles.para3}>VISIT WEBSITES</a>
+          <a
+            href="https://github.com/Deva127-dot/gym_website_project"
+            target="_blank"
+            className={styles.para3}
+          >
+            GITHUB LINK
+          </a>
+          <a
+            href="https://gym-website-project-devendra-parsharam.vercel.app/"
+            target="_blank"
+            className={styles.para3}
+          >
+            VISIT WEBSITES
+          </a>
           <div className={styles.buttons2}>
             <button className={styles.btn}>HTML</button>
             <button className={styles.btn}>CSS</button>
@@ -143,12 +259,15 @@ function Work() {
           <p className={styles.yr2}>2023</p>
         </div>
         <div className={styles.page2}>
-        <img src={img4} alt="twitter clone project" className={styles.projectImg} />
+          <img
+            src={img4}
+            alt="twitter clone project"
+            className={styles.projectImg}
+          />
         </div>
       </div>
 
-      <CompleteWebIcon/>
-
+      <CompleteWebIcon />
     </div>
   );
 }
