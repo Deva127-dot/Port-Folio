@@ -23,7 +23,7 @@ function Navbar() {
           <p className={styles.para}>CONTACT</p>
         </Link>
         <a
-          href="https://drive.google.com/file/d/18RFT-2Vd2YngH7_QZTJTUYGfBW6VBF9E/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ZKeVMKZmTlmlcrfZRgJOdM6Ij1wnlGql/view?usp=sharing"
           target="_blank"
           className={styles.link}
         >
