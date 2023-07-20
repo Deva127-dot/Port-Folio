@@ -50,7 +50,7 @@ function Work() {
             GITHUB LINK
           </a>
           <a
-            href="https://car-service-center-website-project-devendra-parsharam.vercel.app/"
+            href="https://car-service-center-website-project-devendra-parsharam127.vercel.app/"
             target="_blank"
             className={styles.para3}
           >
